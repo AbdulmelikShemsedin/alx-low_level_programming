@@ -21,6 +21,6 @@ int main(void)
 			putchar(b);
 			b++;
 		}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
