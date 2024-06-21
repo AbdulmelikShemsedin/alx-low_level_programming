@@ -5,7 +5,7 @@
 /**
 * main - My main function goes here
 *
-* return (0) - if succeed
+* Return: (0) if succeed
 */
 int main(void)
 {
