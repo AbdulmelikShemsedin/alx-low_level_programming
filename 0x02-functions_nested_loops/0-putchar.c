@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - My main function goes here
+ * _putchar - My main function goes here
  *
  * Return: 0 if succeed
  */
