@@ -5,7 +5,7 @@
  *
  * Return: abs if succeed: c otherwise
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c < 0)
 	{
