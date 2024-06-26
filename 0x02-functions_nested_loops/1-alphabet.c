@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - My main function goes here
+ * print_alphabet - My main function goes here
  *
- * Return: 0 if succeed
+ * Return: void
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
 }
