@@ -2,7 +2,7 @@
 
 /**
  * _abs - My main function goes here
- *
+ * @c: used for checking
  * Return: abs if succeed: c otherwise
  */
 int _abs(int c)
