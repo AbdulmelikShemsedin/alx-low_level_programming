@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
 		{
 			e = argv[i];
 
-			for (; a < strlen(e); a++)
+			for (a = 0; a < strlen(e); a++)
 			{
-				if (e[a] < 48 || e[a] > 57)
+				if (e[a] < '0' || e[a] > '9')
 				{
 					printf("Error\n");
 					return (1);
@@ -31,7 +31,6 @@ int main(int argc, char *argv[])
 			}
 
 			b += atoi(e);
-			e++;
 		}
 		printf("%d\n", b);
 	}
