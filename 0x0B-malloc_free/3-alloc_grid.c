@@ -26,7 +26,7 @@ for (i = 0; i < height; i++)
 arr[i] = malloc(width * sizeof(int));
 if (arr[i] == NULL)
 {
-for (j = 0; j < i; j++)
+for (j = i; j >= 0; j--)
 free(arr[j]);
 free(arr);
 	return (NULL);
