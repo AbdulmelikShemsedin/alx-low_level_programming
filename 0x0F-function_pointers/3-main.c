@@ -9,7 +9,7 @@
  * @argv: array of pointers
  * Return: 0 if succeed
  */
-int main(int __attribute__((__unused__))argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int i, j;
 	char *op;
