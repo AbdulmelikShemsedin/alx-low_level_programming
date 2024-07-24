@@ -13,7 +13,9 @@ int op_mod(int a, int b);
  * Return: a + b
  */
 int op_add(int a, int b)
+{
 	return (a + b);
+}
 
 /**
  * op_sub - subtracts nos
@@ -22,7 +24,9 @@ int op_add(int a, int b)
  * Return: a - b
  */
 int op_sub(int a, int b)
+{
 	return (a - b);
+}
 
 /**
  * op_mul - multiplies nos
@@ -31,7 +35,9 @@ int op_sub(int a, int b)
  * Return: a * b
  */
 int op_mul(int a, int b)
+{
 	return (a * b);
+}
 
 /**
  * op_div - divides nos
@@ -40,7 +46,9 @@ int op_mul(int a, int b)
  * Return: a / b
  */
 int op_div(int a, int b)
+{
 	return (a / b);
+}
 
 /**
  * op_mod - find remainder of nos
@@ -49,4 +57,6 @@ int op_div(int a, int b)
  * Return: a % b
  */
 int op_mod(int a, int b)
+{
 	return (a % b);
+}
