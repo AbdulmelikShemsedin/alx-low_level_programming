@@ -12,7 +12,7 @@ size_t print_list(const list_t *h)
 	
 	while (h)
 	{
-		printf("%d\n", h->n);
+		printf("%d\n", h->len);
 		num++;
 		h = h->next;
 	}
