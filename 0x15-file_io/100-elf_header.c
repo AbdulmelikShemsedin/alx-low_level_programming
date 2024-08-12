@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <elf.h>
+#include <fcntl.h>
 
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
