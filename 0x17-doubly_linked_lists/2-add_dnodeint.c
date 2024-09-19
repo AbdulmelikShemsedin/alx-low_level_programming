@@ -19,8 +19,8 @@ new->n = n;
 new->prev = NULL;
 if (h != NULL)
 {
-while (h->prev != NULL)
-    h = h->prev;
+	while (h->prev != NULL)
+		h = h->prev;
 }
 new->next = h;
 if (h != NULL)
